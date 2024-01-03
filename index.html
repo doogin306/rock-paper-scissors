@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type = "text/javascript" src="rps.js"></script>
+    <!-- <script type = "text/javascript" src="rps.js"></script> -->
+    <script src="rps.js" defer></script>
 </head>
 <body>
+    <div class="buttons">
+        <button id="btnRock">Rock</button>
+        <button id="btnPaper">Paper</button>
+        <button id="btnScissors">Scissors</button>
+    </div>
 
-    <button onclick="game()">Start game</button>
-
+    <div class="results">
+        <p class="message"></p>
+        <p class="score"></p>
+    </div>
 </body>
 </html>
